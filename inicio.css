@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: 'Syne', sans-serif; /* Utiliza la fuente 'Syne' para todo el cuerpo del documento */
+  font-weight: 750; /* Establece el peso de la fuente a 750 */
+  height: 80vh; /* Establece la altura del cuerpo al 100% del viewport height */
+  overflow-x: hidden; /* Evita que el contenido se desborde horizontalmente */
+}
+
+.content {
+  text-align: center;
+  margin-top: 250px;
+}
+
+/* Estilos normales del botón */
+.custom-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 30px 60px;
+  font-size: 16px;
+  font-family: 'Syne', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Agrega transición suave */
+}
+
+/* Estilos del botón cuando el cursor pasa por encima */
+.custom-button:hover {
+  transform: scale(1.05); /* Agrandar el botón al 5% */
+}
+
+
+/* Estilos de márgenes para la flecha */
+.arrow-icon {
+  width: 200px; /* Ancho de la flecha */
+  height: 200px; /* Altura automática */
+  margin-left: 30%;
+
+}
+
+.svg-overlay {
+  margin-top: -50px;
+}
+
+.content-2 {
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: -50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.carousel-inner img {
+  margin-top: 50px;
+  width: 850px;
+  height: 500px;
+}
+
+.carousel-control-prev{
+  margin-top: 50px;
+  margin-left: 220px;
+}
+.carousel-control-next{
+  margin-top: 50px;
+  margin-right: 220px;
+}
+
+.spotify{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.playlist{
+  margin-top: 25px;
+}
+
+.cards{
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cartas se envuelvan cuando no haya suficiente espacio */
+  gap: -40px; /* Ajusta este valor según tu preferencia */
+  margin: 50px;
+}
