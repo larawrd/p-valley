@@ -80,20 +80,22 @@ body {
 .playlist{
   margin-top: 25px;
 }
-
-.cards{
-  background-image: url('fondo-2.jpg');
+.cards {
+  background-image: url('fondo.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   text-align: center;
+  margin-bottom: -50px;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap; /* Permite que las cartas se envuelvan cuando no haya suficiente espacio */
   gap: -40px; /* Ajusta este valor según tu preferencia */
-  margin: 100px;
+  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .card-img-top {
@@ -103,7 +105,17 @@ body {
   display: block; /* Asegura que la imagen sea un elemento de bloque */
 }
 
-.card-body{
+.card-body {
   padding: 20px;
   margin-top: 20px;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3); /* Ajusta los valores según sea necesario */
+}
+
+.parte-proyecto{
+text-align: center;
+margin-top: 100px;
 }
