@@ -63,11 +63,11 @@ body {
 
 .carousel-control-prev{
   margin-top: 50px;
-  margin-left: 220px;
+  margin-left: 250px;
 }
 .carousel-control-next{
   margin-top: 50px;
-  margin-right: 220px;
+  margin-right: 250px;
 }
 
 .spotify{
@@ -93,5 +93,17 @@ body {
   display: flex;
   flex-wrap: wrap; /* Permite que las cartas se envuelvan cuando no haya suficiente espacio */
   gap: -40px; /* Ajusta este valor según tu preferencia */
-  margin: 50px;
+  margin: 100px;
+}
+
+.card-img-top {
+  width: 50%; /* O cualquier otro valor como 100px, 50vw, etc. */
+  height: auto; /* Para mantener la proporción de aspecto */
+  margin: 20px auto 0; /* Margen superior de 20px y centrado horizontal */
+  display: block; /* Asegura que la imagen sea un elemento de bloque */
+}
+
+.card-body{
+  padding: 20px;
+  margin-top: 20px;
 }
